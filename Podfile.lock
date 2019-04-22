@@ -267,7 +267,7 @@ DEPENDENCIES:
   - SVProgressHUD (= 2.2.5)
   - WordPress-Editor-iOS (~> 1.6.0-beta)
   - WordPressAuthenticator (~> 1.4.0-beta)
-  - WordPressKit (~> 4.0.0-beta)
+  - WordPressKit (from `../WordPressKit-iOS`)
   - WordPressShared (~> 1.7.3)
   - WordPressUI (from `https://github.com/wordpress-mobile/WordPressUI-iOS.git`, tag `1.2.0`)
   - WPMediaPicker (= 1.3.3)
@@ -313,7 +313,6 @@ SPEC REPOS:
     - WordPress-Aztec-iOS
     - WordPress-Editor-iOS
     - WordPressAuthenticator
-    - WordPressKit
     - WordPressShared
     - WPMediaPicker
     - wpxmlrpc
@@ -339,6 +338,8 @@ EXTERNAL SOURCES:
   RNTAztecView:
     :git: http://github.com/wordpress-mobile/gutenberg-mobile/
     :tag: v1.2.0
+  WordPressKit:
+    :path: "../WordPressKit-iOS"
   WordPressUI:
     :git: https://github.com/wordpress-mobile/WordPressUI-iOS.git
     :tag: 1.2.0
@@ -406,7 +407,7 @@ SPEC CHECKSUMS:
   WordPress-Aztec-iOS: 3b12eea844ff38b3b82c66f3ed5b01b0fc2f6327
   WordPress-Editor-iOS: d3352429009ba5a75f6ae81deded7156b7a6ffb8
   WordPressAuthenticator: f0e30e8e555e33bea8e13e6f1245172d557a8ee4
-  WordPressKit: 1ddb164dcca4a03ed8e9bd7c6050a8deea1264e0
+  WordPressKit: caf0c55f704778c18ec6ab0914ed8eeeef7dc2d7
   WordPressShared: 0853172642668b0fbf5c8d56e743896ebf9aae01
   WordPressUI: 44fe43a9c5c504dfd534286e39e1ce6ebcd69ff5
   WPMediaPicker: 6d23120b16c0f66987fd98ec2b294864e1df03bf
@@ -415,6 +416,6 @@ SPEC CHECKSUMS:
   ZendeskSDK: cbd49d65efb2f2cdbdcaac84e618896ae87b861e
   ZIPFoundation: 89df685c971926b0323087952320bdfee9f0b6ef
 
-PODFILE CHECKSUM: 36cf7950699299ed7f9a616e828f39058dd614d9
+PODFILE CHECKSUM: 82075833931868caac3127ea46fedd751b152eb1
 
 COCOAPODS: 1.6.1
